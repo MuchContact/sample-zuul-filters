@@ -6,13 +6,13 @@ zuul:
       stripPrefix: true
     portchange:
       path: /hello
-      stripPrefix: true
+      stripPrefix: false
       url: http://localhost:80
 
 foo:
   ribbon:
     listOfServers: localhost:9080
 
-bar:
+barx:
   ribbon:
     listOfServers: localhost:7080
